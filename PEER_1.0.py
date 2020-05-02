@@ -4,8 +4,6 @@ Created on Wed Oct 31 22:10:21 2018
 
 author: Roberto Bastone
 
-email: robertobastone@gmail.com
-
 """
 
 version = 1.0
