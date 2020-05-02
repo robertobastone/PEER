@@ -1,8 +1,6 @@
 ################################################### PEER
 
 author = 'Roberto Bastone'
-email = 'robertobastone93@gmail.com'
-
 version = 1.01
 
 ################################################### IMPORT
@@ -16,7 +14,6 @@ class PEERs:
     def __init__(self):
         print colored("Initializing... Pythonic Easy Equation Resolvers version " + str(version), 'blue')
         print colored("(Author: " + author+')', 'blue')
-        print colored("For info - or anything else - please, feel free to reach me at " + email, 'blue')
     #### INITIALIZING        
     def main(self):
         self.introduction(self.yes,self.no)    
@@ -66,4 +63,3 @@ class PEERs:
     ### SAYING GOODBYE
     def sayingGoodbye(self):
         print colored("Terminating... Pythonic Easy Equation Resolvers version " + str(version),'blue')
-        print colored("If you find any bug, please do not hesitate to contact me at "+ email,'blue')
